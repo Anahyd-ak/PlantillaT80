@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto 80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	Lista de invitados
+</h3>
+
+<!-- Este código de la línea 16 a la 22 contiene el código base para agregar invitados -->
+<div id="filas">
+<input type="text" placeholder="Ingresar nombre" id="nombre1">
+<button onclick="submit()" id="submit_button">Enviar</button>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+<hr>
+
+<!--Agregar el orden de la lista de los invitados, se inexa una etiqueta vacía de div para añadir los nombres-->
+<div id="display_name"></div>
+<hr>
+
+<!-- Se agrega otro orden de los invitados donde se van a mostrar ordenado-->
+<div id="Show1">
+    <h3 id="hd1">Lista de invitados</h3>
+    <button onclick="show()" id="show">Mostrar</button>
+    <p id="p1"></p>
+</div>
+
+<hr>
+<button onclick="sorting()" id="sort_button">Lista ordenada</button>
+<div id="sorted"></div>
+</div>
+<hr>
+<input type="text" placeholder="Buscar nombre" id="s1">&nbsp;
+<button onclick="searching()" id="srch">Buscar</button>
+<p id="p2"></p>
+
+
+</center>
+
+</script>
+</body>
+</html>
